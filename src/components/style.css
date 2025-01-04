@@ -1,0 +1,166 @@
+/* Main Container */
+.main-container {
+    max-width: 100%;
+    width: 100%;
+    height: auto;  /* Allow height to adjust based on content */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px;
+   height: 500px;
+}
+
+/* Title Section */
+.title-section {
+    width: 768px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Rowdies', sans-serif;
+    font-weight: 700;
+    line-height: 48px;
+    word-wrap: break-word;
+}
+
+/* Features Wrapper */
+.features-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;  /* Align features horizontally */
+    justify-content: space-between; /* Space between each feature */
+    gap: 32px; /* Space between feature boxes */
+    flex-wrap: wrap; /* Wrap to the next line if needed */
+}
+
+/* Single Feature Item */
+.feature-item {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    min-width: 280px;  /* Prevent features from shrinking too much */
+    padding: 10px;
+}
+
+/* Icon Container */
+.icon-container {
+    width: 48px;
+    height: 48px;
+    position: relative;
+}
+
+/* Icon Style */
+.icon-style {
+    width: 36px;
+    height: 40px;
+    left: 6px;
+    top: 4px;
+    position: absolute;
+    
+}
+
+/* Text Container for Feature */
+.feature-text-container {
+    align-self: stretch;
+    height: 130px;
+    flex-direction: column;
+   
+    gap: 24px;
+    display: flex;
+}
+
+/* Feature Title */
+.feature-title-text {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: 'Rowdies', sans-serif;
+    font-weight: 700;
+    line-height: 33.6px;
+    word-wrap: break-word;
+}
+
+/* Feature Description */
+.feature-description-text {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+/* Mobile View - Below 768px */
+@media (max-width: 768px) {
+  /* Title Section */
+  .title-section {
+    font-size: 32px; /* Reduce title font size for mobile */
+    line-height: 40px;
+    padding: 0 20px;  /* Add some padding for mobile screens */
+  }
+
+  /* Features Wrapper */
+  .features-wrapper {
+    flex-direction: column;  /* Stack features vertically */
+    gap: 20px;  /* Reduce the gap between feature items */
+    align-items: center;  /* Center items on smaller screens */
+  }
+
+  /* Single Feature Item */
+  .feature-item {
+    min-width: 100%;  /* Allow features to stretch across the full width */
+    align-items: center;
+    gap: 16px;  /* Reduce the space between icon and text */
+  }
+
+  /* Icon Style */
+  .icon-style {
+    width: 30px;  /* Reduce icon size */
+    height: 34px;
+    left: 4px;
+    top: 4px;
+  }
+
+  /* Feature Title */
+  .feature-title-text {
+    font-size: 20px;  /* Reduce feature title font size */
+    line-height: 28px;
+  }
+
+  /* Feature Description */
+  .feature-description-text {
+    font-size: 14px;  /* Reduce feature description font size */
+    line-height: 20px;
+  }
+}
+
+/* Mobile View - Below 480px (Extra small phones) */
+@media (max-width: 480px) {
+  /* Title Section */
+  .title-section {
+    font-size: 28px; /* Smaller font size for very small screens */
+    line-height: 36px;
+  }
+
+  /* Features Wrapper */
+  .features-wrapper {
+    gap: 16px;  /* Further reduce the gap between feature items */
+  }
+
+  /* Feature Title */
+  .feature-title-text {
+    font-size: 18px;  /* Further reduce title font size */
+    line-height: 24px;
+  }
+
+  /* Feature Description */
+  .feature-description-text {
+    font-size: 12px;  /* Smaller font size for extra small screens */
+    line-height: 18px;
+  }
+}
