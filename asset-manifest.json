@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.85038c50.css",
-    "main.js": "/static/js/main.69cc02bb.js",
+    "main.css": "/static/css/main.a43d85ad.css",
+    "main.js": "/static/js/main.3f16577d.js",
     "static/media/Lovepik_com-401135174-blue-particle-aperture 1.png": "/static/media/Lovepik_com-401135174-blue-particle-aperture 1.8f4f57aa5c649f4dc3ee.png",
     "static/media/Group 1.png": "/static/media/Group 1.216f3aa7d89782e98d99.png",
     "static/media/random.png": "/static/media/random.49aa38e6ed2fd6b0b46c.png",
     "index.html": "/index.html",
-    "main.85038c50.css.map": "/static/css/main.85038c50.css.map",
-    "main.69cc02bb.js.map": "/static/js/main.69cc02bb.js.map"
+    "main.a43d85ad.css.map": "/static/css/main.a43d85ad.css.map",
+    "main.3f16577d.js.map": "/static/js/main.3f16577d.js.map"
   },
   "entrypoints": [
-    "static/css/main.85038c50.css",
-    "static/js/main.69cc02bb.js"
+    "static/css/main.a43d85ad.css",
+    "static/js/main.3f16577d.js"
   ]
 }
