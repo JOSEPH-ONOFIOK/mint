@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.85038c50.css",
+    "main.js": "/static/js/main.69cc02bb.js",
+    "static/media/Lovepik_com-401135174-blue-particle-aperture 1.png": "/static/media/Lovepik_com-401135174-blue-particle-aperture 1.8f4f57aa5c649f4dc3ee.png",
+    "static/media/Group 1.png": "/static/media/Group 1.216f3aa7d89782e98d99.png",
+    "static/media/random.png": "/static/media/random.49aa38e6ed2fd6b0b46c.png",
+    "index.html": "/index.html",
+    "main.85038c50.css.map": "/static/css/main.85038c50.css.map",
+    "main.69cc02bb.js.map": "/static/js/main.69cc02bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85038c50.css",
+    "static/js/main.69cc02bb.js"
+  ]
+}
